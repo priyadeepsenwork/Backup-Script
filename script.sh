@@ -1,11 +1,12 @@
 #!/bin/bash
 
+# Add Configuration File
+
 # Defining variables
 BACKUP_SRC="/home/subaru/Documents/Personal/"
 BACKUP_DST="/home/subaru/Backups"
 BACKUP_DATE=$(date +%Y%m%d%H%M%S)
 BACKUP_FILENAME="backup-demo-_$BACKUP_DATE.tar.gz"
-
 
 # Make directory
 mkdir -p "$BACKUP_DST/$BACKUP_DATE"
